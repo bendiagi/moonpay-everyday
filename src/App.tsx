@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import ProblemOpportunities from './components/ProblemOpportunities'
 import UserPersona from './components/UserPersona'
 import JobsToBeDone from './components/JobsToBeDone'
+import Features from './components/Features'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ProblemOpportunities />
       <UserPersona />
       <JobsToBeDone />
+      <Features />
     </div>
   )
 }
