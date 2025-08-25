@@ -1,0 +1,32 @@
+/* ===== TEST SOHNE FONT FAMILY ===== */
+@font-face {
+  font-family: 'Test Sohne';
+  src: url('../font/TestSohne-Extraleicht-BF663d89cd3f5c5.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Test Sohne';
+  src: url('../font/TestSohne-Leicht-BF663d89cd4952e.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Test Sohne';
+  src: url('../font/TestSohne-Buch-BF663d89cd32e6a.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Test Sohne';
+  src: url('../font/TestSohne-Halbfett-BF663d89cd2d67b.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
