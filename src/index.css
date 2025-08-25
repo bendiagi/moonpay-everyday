@@ -29,7 +29,41 @@ body {
   min-height: 100vh;
   background-color: white;
   color: #111827;
+  cursor: none;
 }
+
+html {
+  background-color: white;
+  overscroll-behavior: none;
+}
+
+/* Custom cursor dot */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15.48px;
+  height: 15.48px;
+  background-color: #7D00FF;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
+}
+
+.custom-cursor.clicked {
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.custom-cursor.hovering-title {
+  background-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  filter: contrast(1.5) brightness(1.2);
+  background-color: #FFFC31;
+}
+
+
 
 #root {
   width: 100%;

@@ -38,7 +38,7 @@ const JobsToBeDone: React.FC = () => {
   return (
     <div className="jobs-section">
       <div className="section-header">
-        <h2 className="section-title">Jobs To Be Done</h2>
+        <h2 className="section-title cursor-hover-target">Jobs To Be Done</h2>
         <p className="section-subtitle">
           What users really want from MoonPay Everyday.
         </p>

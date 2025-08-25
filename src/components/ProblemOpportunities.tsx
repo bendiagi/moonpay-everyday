@@ -5,7 +5,7 @@ const ProblemOpportunities: React.FC = () => {
   return (
     <div className="problem-opportunities-section">
       <div className="section-header">
-        <h2 className="section-title">Problem and Opportunities</h2>
+        <h2 className="section-title cursor-hover-target">Problem and Opportunities</h2>
       </div>
       
       <div className="cards-container">

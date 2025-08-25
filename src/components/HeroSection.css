@@ -271,6 +271,38 @@
   background: #000000;
 }
 
+/* Case Study Button */
+.case-study-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.case-study-button {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: none;
+  border-radius: 20px;
+  padding: 0 1.25rem;
+  min-height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.08px;
+  gap: 0.5rem;
+  background: #000000;
+  color: #fafafa;
+  cursor: default;
+  transition: none;
+  border: transparent;
+}
+
 /* Trust Score */
 .trust-score {
   display: flex;
@@ -318,6 +350,20 @@
   line-height: 1;
   margin-bottom: 0;
   text-align: left;
+}
+
+/* Responsive App Image */
+.responsive-app-image {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.app-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 /* Divider line under image */
@@ -661,7 +707,22 @@ picture img {
     font-size: 1.75rem;
   }
   
-
+  .hero-main-title {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-actions {
+    margin-top: 2rem;
+  }
+  
+  .hero-actions-row {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
   
   .orb-1 {
     width: 300px;
@@ -692,9 +753,26 @@ picture img {
     font-size: 1.5rem;
   }
   
+  .hero-main-title {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.02em;
+  }
+  
   .cta-button {
     width: 100%;
     max-width: 300px;
+  }
+  
+  .hero-actions {
+    margin-top: 1.5rem;
+  }
+  
+  .hero-actions-row {
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
   }
   
 

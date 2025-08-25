@@ -16,7 +16,7 @@ const UserPersona: React.FC = () => {
   return (
     <div className="user-persona-section">
       <div className="section-header">
-        <h2 className="section-title">User Personas</h2>
+        <h2 className="section-title cursor-hover-target">User Personas</h2>
         <p className="section-subtitle">
           Who our everyday users really are.
         </p>

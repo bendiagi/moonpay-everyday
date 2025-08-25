@@ -23,11 +23,18 @@ const HeroSection: React.FC = () => {
 
       {/* Main Hero Content */}
       <div className="hero-container">
+        {/* Case Study Button */}
+        <div className="case-study-button-container">
+          <button className="case-study-button">
+            <span>Case Study by Ben Diagi</span>
+          </button>
+        </div>
+        
         <div className="hero-content">
           {/* Main Headline */}
           <div className="hero-headline">
-            <h2 className="hero-subtitle">Bank Less. Live More.</h2>
-            <h1 className="hero-main-title">MoonPay <span className="gradient-text">Everyday</span>.</h1>
+                    <h2 className="hero-subtitle cursor-hover-target">Bank Less. Live More.</h2>
+        <h1 className="hero-main-title cursor-hover-target">MoonPay <span className="gradient-text">Everyday</span>.</h1>
           </div>
 
           {/* Subheadline */}
@@ -137,28 +144,14 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-                      {/* Responsive DeFi App Images */}
-          <picture className="block text-center tabletPortrait:hidden">
+                      {/* Responsive DeFi App Image */}
+          <div className="responsive-app-image">
             <img 
               src="/Desktop defi.png" 
-              alt="Mobile DeFi App" 
-              className="w-full"
+              alt="DeFi App" 
+              className="app-image"
             />
-          </picture>
-          <picture className="hidden tabletPortrait:block desktopSmall:hidden">
-            <img 
-              src="/Desktop defi.png" 
-              alt="Tablet DeFi App" 
-              className="w-full"
-            />
-          </picture>
-          <picture className="hidden desktopSmall:block">
-            <img 
-              src="/Desktop defi.png" 
-              alt="Desktop DeFi App" 
-              className="w-full"
-            />
-          </picture>
+          </div>
           
           {/* Divider line under image */}
           <div className="image-divider"></div>
@@ -167,7 +160,7 @@ const HeroSection: React.FC = () => {
           <div className="new-section">
             <div className="section-content">
               <div className="headline-section">
-                <h2 className="section-headline">From Crypto to <span className="gradient-text">Everyday</span> Money.</h2>
+                <h2 className="section-headline cursor-hover-target">From Crypto to <span className="gradient-text">Everyday</span> Money.</h2>
               </div>
               <div className="subcopy-section">
                 <p className="section-subcopy">
@@ -185,7 +178,7 @@ const HeroSection: React.FC = () => {
                   <img src="https://images.unsplash.com/photo-1475998893297-4da48a6e037d?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Core bet" className="w-auto h-auto mx-auto max-w-full max-h-[332px]" />
                 </div>
                 <div className="feature-content">
-                  <h3 className="feature-title">The core bet</h3>
+                  <h3 className="feature-title cursor-hover-target">The core bet</h3>
                   <p className="feature-description">If we make living on crypto effortless, usage shifts from occasional speculation to frequent, long-term money habits.</p>
                 </div>
               </div>
@@ -194,7 +187,7 @@ const HeroSection: React.FC = () => {
                   <img src="https://images.unsplash.com/photo-1598944999410-e93772fc48a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbXBhc3N8ZW58MHx8MHx8fDA%3D" alt="North Star EAA" className="w-auto h-auto mx-auto max-w-full max-h-[332px]" />
                 </div>
                 <div className="feature-content">
-                  <h3 className="feature-title">North Star: Everyday Active Accounts (EAA)</h3>
+                  <h3 className="feature-title cursor-hover-target">North Star: Everyday Active Accounts (EAA)</h3>
                   <div className="feature-description">
                     <p>Users who maintain an active balance, run at least two automated money rules, and complete five or more monthly everyday transactions</p>
                   </div>
@@ -205,7 +198,7 @@ const HeroSection: React.FC = () => {
           
           {/* Live on crypto text section */}
           <div className="live-on-crypto-section">
-            <h2 className="live-on-crypto-title">
+            <h2 className="live-on-crypto-title cursor-hover-target">
               <span>Live on crypto.<br /></span>
               <span>Effortlessly.<br /></span>
               <span>Every day.<br /></span>
