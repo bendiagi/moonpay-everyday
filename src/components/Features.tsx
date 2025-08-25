@@ -107,10 +107,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <div className="image-placeholder">
-            <span>Pay Preview</span>
-            <p>P2P, Gifts, Bill Pay visualization</p>
-          </div>
+          <img src="/Everyday Pay.png" alt="Everyday Pay preview" className="feature-img" />
         </div>
       </div>
     </div>

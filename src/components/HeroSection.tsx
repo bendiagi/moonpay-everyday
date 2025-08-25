@@ -6,10 +6,6 @@ const HeroSection: React.FC = () => {
     console.log('Join the Waitlist clicked');
   };
 
-  const handleGetStarted = () => {
-    console.log('Get started clicked');
-  };
-
   return (
     <div className="hero-wrapper">
       {/* Background gradient orbs */}
