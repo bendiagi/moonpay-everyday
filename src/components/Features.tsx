@@ -63,10 +63,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <div className="image-placeholder">
-            <span>Automation Preview</span>
-            <p>Money Rules visualization</p>
-          </div>
+          <img src="/automate.png" alt="Everyday Automation preview" className="feature-img" />
         </div>
       </div>
       
@@ -85,10 +82,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <div className="image-placeholder">
-            <span>Yield Preview</span>
-            <p>Earn on Idle visualization</p>
-          </div>
+          <img src="/Yield.png" alt="Everyday Yield preview" className="feature-img" />
         </div>
       </div>
       
