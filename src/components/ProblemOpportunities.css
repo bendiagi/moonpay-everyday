@@ -32,11 +32,10 @@
   background: rgb(249, 248, 245);
   border-radius: 12px;
   overflow: hidden;
-  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  padding: 1.5rem 1.5rem 1.75rem 1.5rem;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: flex-start;
-  height: 350px;
 }
 
 .card-icon {
@@ -78,8 +77,6 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  min-height: 148px;
-  flex: 1;
   text-align: left;
 }
 
@@ -95,11 +92,10 @@
 .card-description {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.07px;
   color: #64748b;
-  margin: 0;
-  flex: 1;
+  margin: 0 !important;
 }
 
 /* Responsive Design */
@@ -121,7 +117,6 @@
   
   .problem-card {
     height: auto;
-    min-height: 350px;
   }
   
   .section-title {

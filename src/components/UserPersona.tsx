@@ -17,6 +17,9 @@ const UserPersona: React.FC = () => {
     <div className="user-persona-section">
       <div className="section-header">
         <h2 className="section-title">User Personas</h2>
+        <p className="section-subtitle">
+          Who our everyday users really are.
+        </p>
       </div>
       <div className="personas-container">
         <div className="personas-viewport">

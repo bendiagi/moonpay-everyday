@@ -1,0 +1,132 @@
+/* Jobs To Be Done Section */
+.jobs-section {
+  padding: 4rem 15%;
+  background: #ffffff;
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #9ca3af;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jobs-list {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-items: stretch;
+}
+
+.job-item:nth-child(4),
+.job-item:nth-child(5) {
+  grid-column: span 1.5;
+  justify-self: center;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgb(249, 248, 245);
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.job-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bullet {
+  font-size: 18px;
+  line-height: 1;
+  color: #737373;
+  font-weight: 400;
+}
+
+.icon-svg {
+  width: 16px;
+  height: 16px;
+  color: #737373;
+}
+
+.job-title {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #737373;
+  margin: 0;
+  letter-spacing: -0.07px;
+  flex: 1;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .job-title {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.08px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jobs-section {
+    padding: 3rem 5%;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .jobs-list {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  
+  .job-item:nth-child(4),
+  .job-item:nth-child(5) {
+    grid-column: 1;
+    justify-self: stretch;
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs-section {
+    padding: 2rem 5%;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+}
