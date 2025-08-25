@@ -275,7 +275,8 @@
 .case-study-button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .case-study-button {
@@ -356,7 +357,7 @@
 .responsive-app-image {
   width: 100%;
   text-align: center;
-  margin: 2rem 0;
+  margin: 0rem 0;
 }
 
 .app-image {
@@ -724,6 +725,33 @@ picture img {
     align-items: center;
   }
   
+  /* Reduce Case Study button padding on mobile */
+  .case-study-button-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Hide Play Store rating and TrustScore on mobile */
+  .rating-item:nth-child(3) {
+    display: none;
+  }
+  
+  .trust-score {
+    display: none;
+  }
+  
+  /* Hide rating divider on mobile */
+  .rating-divider {
+    display: none;
+  }
+  
+  /* Increase phone image size on mobile */
+  .responsive-app-image {
+    transform: scale(1.5);
+    transform-origin: center top;
+    margin: 3rem 0;
+  }
+  
   .orb-1 {
     width: 300px;
     height: 300px;
@@ -773,6 +801,26 @@ picture img {
     gap: 0.75rem;
     justify-content: center;
     align-items: center;
+  }
+  
+  /* Reduce Case Study button padding on small mobile */
+  .case-study-button-container {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Hide Play Store rating and TrustScore on small mobile */
+  .rating-item:nth-child(3) {
+    display: none;
+  }
+  
+  .trust-score {
+    display: none;
+  }
+  
+  /* Hide rating divider on small mobile */
+  .rating-divider {
+    display: none;
   }
   
 
