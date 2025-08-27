@@ -43,6 +43,7 @@ const Monetization: React.FC = () => {
 
   return (
     <div className="jobs-section">
+      <div className="section-divider"></div>
       <div className="section-header">
         <h2 className="section-title cursor-hover-target">Monetization Strategy</h2>
         <p className="section-subtitle">

@@ -9,6 +9,8 @@ import EverydayJourney from './components/EverydayJourney'
 import NFTRewards from './components/NFTRewards'
 import Monetization from './components/Monetization'
 import CompetitorAnalysis from './components/CompetitorAnalysis'
+import Roadmap from './components/Roadmap'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
@@ -79,6 +81,8 @@ function App() {
       <NFTRewards />
       <Monetization />
       <CompetitorAnalysis />
+      <Roadmap />
+      <ScrollToTop />
     </div>
   )
 }

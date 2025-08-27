@@ -1,0 +1,102 @@
+/* The Roadmap Section */
+.roadmap-section {
+  padding: 4rem 10%;
+  margin: 0;
+  background: #ffffff;
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.roadmap-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.roadmap-headline {
+  text-align: center;
+  width: 100%;
+}
+
+.roadmap-title {
+  font-family: 'Test Sohne', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.roadmap-subtitle {
+  font-family: 'Test Sohne', sans-serif;
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin: 0 auto;
+  font-weight: 600;
+  text-align: center;
+  max-width: 600px;
+}
+
+.roadmap-iframe-container {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.roadmap-iframe-container iframe {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .roadmap-section {
+    padding: 2rem 5%;
+  }
+  
+  .roadmap-content {
+    max-width: 100%;
+  }
+  
+  .roadmap-title {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+  
+  .roadmap-subtitle {
+    font-size: 18px;
+  }
+  
+  .roadmap-iframe-container iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .roadmap-section {
+    padding: 2rem 5%;
+  }
+  
+  .roadmap-title {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+  
+  .roadmap-subtitle {
+    font-size: 18px;
+  }
+  
+  .roadmap-iframe-container iframe {
+    width: 100%;
+    height: 350px;
+  }
+}
