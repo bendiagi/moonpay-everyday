@@ -32,6 +32,17 @@ const UserPersona: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      <div className="figma-link-container">
+        <a 
+          href="https://www.figma.com/community/file/1214669066039788206/user-personas-5-free-templates" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="figma-link"
+        >
+          Check out my User Persona templates on Figma Community. ↗
+        </a>
+      </div>
     </div>
   );
 };

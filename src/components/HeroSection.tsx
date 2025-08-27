@@ -205,6 +205,7 @@ const HeroSection: React.FC = () => {
           
           {/* Horizontal line below new section */}
           <div className="new-section-divider"></div>
+          
     </div>
   );
 };

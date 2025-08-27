@@ -5,6 +5,7 @@ import ProblemOpportunities from './components/ProblemOpportunities'
 import UserPersona from './components/UserPersona'
 import JobsToBeDone from './components/JobsToBeDone'
 import Features from './components/Features'
+import EverydayJourney from './components/EverydayJourney'
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
@@ -68,6 +69,7 @@ function App() {
       <UserPersona />
       <JobsToBeDone />
       <Features />
+      <EverydayJourney />
     </div>
   )
 }
