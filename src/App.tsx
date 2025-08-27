@@ -7,6 +7,7 @@ import JobsToBeDone from './components/JobsToBeDone'
 import Features from './components/Features'
 import EverydayJourney from './components/EverydayJourney'
 import NFTRewards from './components/NFTRewards'
+import Monetization from './components/Monetization'
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
@@ -70,8 +71,12 @@ function App() {
       <UserPersona />
       <JobsToBeDone />
       <Features />
+      <div style={{ padding: '4rem 10% 0 10%' }}>
+        <div className="section-divider" style={{ margin: '0 0 2rem 0' }}></div>
+      </div>
       <EverydayJourney />
       <NFTRewards />
+      <Monetization />
     </div>
   )
 }
