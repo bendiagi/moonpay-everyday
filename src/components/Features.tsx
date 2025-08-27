@@ -25,7 +25,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <img src="/Money_Hub.png" alt="Money Hub preview" className="feature-img" />
+          <img src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261244/Money_Hub_aqacjk.png" alt="Money Hub preview" className="feature-img" />
         </div>
       </div>
       
@@ -44,7 +44,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <img src="/Spend Everywhere.png" alt="Spend Everywhere preview" className="feature-img" />
+          <img src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261245/Spend_Everywhere_iqkyv3.png" alt="Spend Everywhere preview" className="feature-img" />
         </div>
       </div>
       
@@ -63,7 +63,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <img src="/automate.png" alt="Everyday Automation preview" className="feature-img" />
+          <img src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261245/automate_uiv032.png" alt="Everyday Automation preview" className="feature-img" />
         </div>
       </div>
       
@@ -82,7 +82,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <img src="/Yield.png" alt="Everyday Yield preview" className="feature-img" />
+          <img src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261245/Yield_bojljr.png" alt="Everyday Yield preview" className="feature-img" />
         </div>
       </div>
       
@@ -101,7 +101,7 @@ const Features: React.FC = () => {
         </div>
         
         <div className="feature-image">
-          <img src="/Everyday Pay.png" alt="Everyday Pay preview" className="feature-img" />
+          <img src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261245/Everyday_Pay_z3bxuq.png" alt="Everyday Pay preview" className="feature-img" />
         </div>
       </div>
     </div>

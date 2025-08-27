@@ -6,6 +6,7 @@ import UserPersona from './components/UserPersona'
 import JobsToBeDone from './components/JobsToBeDone'
 import Features from './components/Features'
 import EverydayJourney from './components/EverydayJourney'
+import NFTRewards from './components/NFTRewards'
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
@@ -70,6 +71,7 @@ function App() {
       <JobsToBeDone />
       <Features />
       <EverydayJourney />
+      <NFTRewards />
     </div>
   )
 }

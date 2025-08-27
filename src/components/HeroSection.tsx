@@ -143,7 +143,7 @@ const HeroSection: React.FC = () => {
                       {/* Responsive DeFi App Image */}
           <div className="responsive-app-image">
             <img 
-              src="/Desktop defi.png" 
+              src="https://res.cloudinary.com/djnkxndun/image/upload/v1756261244/Desktop_defi_svbqbp.png" 
               alt="DeFi App" 
               className="app-image"
             />
