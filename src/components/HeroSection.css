@@ -113,12 +113,27 @@
   margin: 0 0 8px 0;
 }
 
-.gradient-text {
-  background: linear-gradient(90deg, #9e3eff, #0c00f5);
-  background-size: 300% 100%;
+/* Animated gradient for Everyday text - WORKING VERSION */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-headline .gradient-text {
+  background: linear-gradient(90deg, #000000 0%, #9D3EFF 25%, #0E01F5 50%, #9D3EFF 75%, #000000 100%);
+  background-size: 200% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
+  animation: gradientFlow 5s ease-in-out infinite;
   display: inline-block;
   line-height: 1;
   padding: 0 2px 8px 2px;
@@ -527,6 +542,20 @@
   letter-spacing: -0.84px;
 }
 
+/* Animated gradient for "With MoonPay Everyday." text */
+.live-on-crypto-section .gradient-text {
+  background: linear-gradient(90deg, #000000 0%, #9D3EFF 25%, #0E01F5 50%, #9D3EFF 75%, #000000 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientFlow 5s ease-in-out infinite;
+  display: inline-block;
+  line-height: 1;
+  padding: 0 2px 8px 2px;
+}
+
 /* Horizontal line below new section */
 .new-section-divider {
   width: 100%;
@@ -866,6 +895,20 @@ picture img {
     width: 100%;
     height: 300px;
   }
+  
+  /* New section mobile styles to prevent phone image overlap */
+  .new-section {
+    padding: 4rem 5% 2rem 5%;
+  }
+  
+  .section-headline {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+  
+  .section-subcopy {
+    font-size: 18px;
+  }
 }
 
 /* The Everyday Journey Section */
@@ -922,4 +965,17 @@ picture img {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Fix for phone image overlap on mobile */
+@media (max-width: 768px) {
+  .responsive-app-image {
+    margin-bottom: 12rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-app-image {
+    margin-bottom: 15rem !important;
+  }
 }
