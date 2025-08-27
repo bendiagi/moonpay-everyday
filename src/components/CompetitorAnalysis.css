@@ -1,0 +1,206 @@
+/* Competitor Analysis Section */
+.competitor-analysis-section {
+  padding: 6rem 10%;
+  background: rgb(249, 248, 245);
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  font-family: 'Test Sohne', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6b7280;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Table Styles */
+.competitor-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header Row */
+.header-cell {
+  background: #f8fafc;
+  color: #111827;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  position: relative;
+  min-width: 140px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.header-cell.competitor-header {
+  min-width: 160px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-icon {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Table Rows */
+.table-row {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: #f9fafb;
+}
+
+.table-row.our-product {
+  background-color: rgba(157, 62, 255, 0.1);
+  border-left: 4px solid #9D3EFF;
+}
+
+/* Competitor Name Cell */
+.competitor-name {
+  padding: 1.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+  background: #f8fafc;
+  border-right: 1px solid #e5e7eb;
+  min-width: 180px;
+}
+
+/* Strength Cells */
+.strength-cell {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border-right: 1px solid #e5e7eb;
+  min-width: 140px;
+  line-height: 1.4;
+  color: #111827;
+}
+
+/* Strength Colors - All using default text color */
+.strength-excellent {
+  color: #111827;
+}
+
+.strength-strong {
+  color: #111827;
+}
+
+.strength-moderate {
+  color: #111827;
+}
+
+.strength-weak {
+  color: #111827;
+}
+
+.strength-narrow {
+  color: #111827;
+}
+
+.strength-focused {
+  color: #111827;
+}
+
+.strength-wide {
+  color: #111827;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .competitor-analysis-section {
+    padding: 4rem 5%;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .competitor-table {
+    min-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .competitor-analysis-section {
+    padding: 3rem 5%;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .header-cell {
+    padding: 1rem 0.75rem;
+    font-size: 0.75rem;
+  }
+  
+  .competitor-name {
+    padding: 1rem 0.75rem;
+    font-size: 0.875rem;
+    min-width: 140px;
+  }
+  
+  .strength-cell {
+    padding: 1rem 0.75rem;
+    font-size: 0.75rem;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .competitor-analysis-section {
+    padding: 2rem 5%;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .header-icon {
+    font-size: 1rem;
+  }
+}

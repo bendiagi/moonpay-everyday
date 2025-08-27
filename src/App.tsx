@@ -8,6 +8,7 @@ import Features from './components/Features'
 import EverydayJourney from './components/EverydayJourney'
 import NFTRewards from './components/NFTRewards'
 import Monetization from './components/Monetization'
+import CompetitorAnalysis from './components/CompetitorAnalysis'
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
@@ -77,6 +78,7 @@ function App() {
       <EverydayJourney />
       <NFTRewards />
       <Monetization />
+      <CompetitorAnalysis />
     </div>
   )
 }
